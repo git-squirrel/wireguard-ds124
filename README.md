@@ -45,7 +45,7 @@ wireguard-ds124/
 │   └── ip6table_nat.ko
 ├── scripts/
 │   ├── install-wireguard-mod.sh  # 一键安装：拷贝内核模块 + 注册开机自启
-│
+│   ├── wireguard-start.sh  # 开机自启脚本，增加60s重试3次，解决内核未启动自启脚本无法生效
 └── docs/
     └── BUILD.md               # 从零编译的完整步骤
 ```
